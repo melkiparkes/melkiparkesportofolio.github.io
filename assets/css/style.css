@@ -325,7 +325,7 @@ h6 {
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
-  border: 2px solid rgba(165, 185, 18, 0.2);
+  border: 2px solid rgba(97, 97, 97, 0);
 }
 
 .navbar-mobile li {
@@ -1203,33 +1203,3 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Credits
---------------------------------------------------------------*/
-.credits {
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 15px;
-  text-align: right;
-  font-size: 13px;
-  color: #fff;
-  z-index: 999999;
-}
-
-@media (max-width: 992px) {
-  .credits {
-    text-align: center;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-  }
-}
-
-.credits a {
-  color: hsl(230, 100%, 50%);
-  transition: 0.3s;
-}
-
-.credits a:hover {
-  color: #fff;
-}
